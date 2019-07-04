@@ -1,0 +1,5 @@
+*.exe
+*.obj
+*.wp
+.wpassy
+old_encrypt.c
