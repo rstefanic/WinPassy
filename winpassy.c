@@ -254,7 +254,7 @@ void createNewFilePrompt(const char* pathToWPassy)
     char password[PASSWORD_BUFFER_SIZE] = { 0 };
     char confirmPassword[PASSWORD_BUFFER_SIZE] = { 0 };
 
-    printf("\nEnter new password >> ");
+    printf("\nEnter new master password >> ");
     getPassword(password, PASSWORD_BUFFER_SIZE);
 
     printf("\nPlease confirm your new password >> ");
@@ -314,7 +314,7 @@ void addServicePrompt(WPassy* wpassy, const char* masterPassword, const char* pa
     printf("\nEnter new account name >> ");
     fgets(account, ACCOUNT_BUFFER_SIZE, stdin);
 
-    printf("\nEnter new master password >> ");
+    printf("\nEnter new password >> ");
     getPassword(password, PASSWORD_BUFFER_SIZE);
 
     printf("\nPlease confirm your new password >> ");
