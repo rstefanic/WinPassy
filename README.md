@@ -14,7 +14,7 @@
 <p align="center"><img src="./img/wpassy_add.gif" /></p>
 
 <h3 align="center">List all services</h3>
-<p align="center"><img src="./img/wpassy_list.png" /></p>
+<p align="center"><img src="./img/wpassy_list.PNG" /></p>
 
 <h3 align="center">Get information for a service</h3>
 <p align="center"><img src="./img/wpassy_get.gif" /></p>
